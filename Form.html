@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="D:\PROJECTS\HTML\Resources\profile2.jpg" type="image" sizes="16*16"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shubham Sharma"/>
+    <meta name="keywords" content="html, css, shubham, sharma ji, PurpleDragon"/>
+    <meta name="description" content="Shubham Sharma is an INTERN at CYBER GROUP"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="D:\PROJECTS\HTML\Scripts\something.js"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url("Resources/page_bg.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        input{
+            height: 30px;
+            width: 500px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <img src="D:\PROJECTS\HTML\Resources\profile2.jpg" alt="Not available" width="30" height="30" style="border-radius: 50%;"/>
+        <p style="font-size: 28px; display: inline;">Shubham Sharma</p>
+    </div>
+
+    <div style="text-align: center;">
+        <p style="font-size: 40px">Hi !</p>
+        <p style="font-size: 40px">Please fill your contact details</p>
+    </div>
+
+    <div>
+        <form action="D:\PROJECTS\HTML\try.html" style="text-align: center;">
+            <input type="text" id="naam" placeholder="Name"> <br> <br>
+            <input type="email" id="email" placeholder="Email"> <br> <br> 
+            <input type="phone" id="phone" placeholder="Phone"> <br> <br>
+            <input type="text" id="msg" placeholder="Your Message Here ...... Just keep it short"><br> <br>
+            <input type="submit" value="Submit" onclick="saveInWebStorage()" style="background-color: rgb(205, 181, 216)">
+        </form>
+    </div>
+    
+</body>
+</html>
